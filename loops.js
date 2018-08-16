@@ -8,3 +8,22 @@ function forLoop(array) {
   }
   return array;
 }
+
+
+function whileLoop(n) {
+   let countdown = 100;
+
+   while (countdown > 0) {
+     console.log(--countdown); 
+   }
+   return "done";
+}
+
+
+function doWhileLoop(array) {
+  function maybeTrue() {
+    math.Randon() > 0.5
+  }
+
+do array.pop(); 
+}
