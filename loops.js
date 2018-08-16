@@ -12,6 +12,8 @@ function forLoop(array) {
 
 forLoop([]);
 
+
+
 function whileLoop(n) {
   while (n > 0) {
     console.log(--n);
@@ -19,7 +21,9 @@ function whileLoop(n) {
   return "done";
 }
 
-whileLoop(10);*/
+whileLoop(10);
+
+
 
 function maybeTrue() {
   return Math.random() >= 0.5;
@@ -35,4 +39,3 @@ function doWhileLoop(array) {
 }
 
 doWhileLoop(array);
-
