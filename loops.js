@@ -2,13 +2,15 @@ function forLoop(array) {
    for ( let i = 0; i < 25; i++) {
      if (i === 1) {
        array.push("I am 1 strange loop.")
-     } else {
+     } 
+     else {
        array.push("I am ${i} strange loops.")
      }
   }
   return array;
 }
 
+forLoop([]);
 
 function whileLoop(n) {
    let countdown = n;
@@ -19,6 +21,7 @@ function whileLoop(n) {
    return "done";
 }
 
+whileLoop(10);
 
 function doWhileLoop(array) {
   function incrementVariable() {
@@ -30,3 +33,5 @@ do {
 } while (array.length > -1 && incrementVariable());
   retun array
 }
+
+doWhileLoop(array)
