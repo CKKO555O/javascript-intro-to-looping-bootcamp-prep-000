@@ -25,5 +25,8 @@ function doWhileLoop(array) {
     math.Randon() > 0.5
   }
 
-do array.pop(); 
+do {
+  array.pop();
+} while (array.length > -1 && maybeTrue());
+  retun array
 }
