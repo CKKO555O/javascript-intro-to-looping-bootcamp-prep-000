@@ -21,12 +21,12 @@ function whileLoop(n) {
 
 
 function doWhileLoop(array) {
-  function maybeTrue() {
+  function incrementVariable() {
     math.Randon() > 0.5
   }
 
 do {
   array.pop();
-} while (array.length > -1 && maybeTrue());
+} while (array.length > -1 && incrementVariable());
   retun array
 }
